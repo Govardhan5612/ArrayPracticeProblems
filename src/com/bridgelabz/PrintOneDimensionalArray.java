@@ -2,7 +2,15 @@ package com.bridgelabz;
 
 import java.util.Scanner;
 
+/**
+ * @GovardhanReddy
+ */
+
 public class PrintOneDimensionalArray {
+    /**
+     * Print One dimensional array
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the length of array : ");
@@ -17,5 +25,6 @@ public class PrintOneDimensionalArray {
         for (int j =0;j<lengthOfArray;j++){
             System.out.print(array[j]+" ");
         }
+        input.close();
     }
 }
