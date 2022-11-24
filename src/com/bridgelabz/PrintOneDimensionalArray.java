@@ -16,7 +16,7 @@ public class PrintOneDimensionalArray {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter the length of array : ");
-        
+
         int lengthOfArray = input.nextInt();
         int [] array = new int[lengthOfArray];
         System.out.println("Enter the values of Array : ");
