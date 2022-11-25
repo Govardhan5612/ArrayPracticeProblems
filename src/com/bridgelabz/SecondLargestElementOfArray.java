@@ -9,7 +9,7 @@ public class SecondLargestElementOfArray {
      */
     public static void main(String[] args) {
         int [] array = {10,22,42,65,85,95,84,87,68};
-        int duplicateValue = array[0];
+        int duplicateValue;
         for (int i =0;i<array.length;i++){
             for (int j=i+1;j<array.length;j++){
                 if (array[i]<array[j]){
