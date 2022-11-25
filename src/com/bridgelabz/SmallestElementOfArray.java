@@ -10,17 +10,14 @@ public class SmallestElementOfArray {
      */
     public static void main(String[] args) {
         int [] array = {1,2,3,4,5,6,7,8,0};
-        int duplicateelement = array[0];
+        int smallestElement = array[0];
         for (int i = 0;i<array.length;i++){
-            for (int j=i+1;j<array.length;j++){
-                if(array[i]>array[j]){
-                    duplicateelement=array[i];
-                    array[i]=array[j];
-                    array[j]=duplicateelement;
-                }
-            }
+           if (array[i]<smallestElement){
+               smallestElement=array[i];
+
+           }
         }
-        System.out.println("Smallest element of array is "+array[0]);
+        System.out.println("Smallest element of array is "+smallestElement);
 
     }
 }
